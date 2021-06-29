@@ -1,0 +1,55 @@
+.clicked-active {
+    display: block;
+}
+
+.clicked {
+    display: none;
+}
+
+.recipe {
+    padding: 50px 30px;
+    width: 30%;
+    display: inline-block;
+}
+
+.recipe-title {
+    color: #FBF9F8;
+    font-weight: bold;
+    font-size: 1.8em;
+    letter-spacing: 2px;
+    text-align: center;
+    height: 80px;
+}
+
+.recipe img {
+    border-radius: 50%;
+    border: 10px double #FBF9F8;
+}
+
+.recipe button {
+    background-color: #f353d5;
+    color: #FBF9F8;
+    border-radius: 7px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 10px 15px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    width: 150px;
+    font-size: 1.2em;
+}
+
+.recipe ul {
+    background-color: rgba(43, 24, 163, 0.7);
+    border-radius: 6px;
+    padding: 20px;
+    width: 80%;
+    margin: 20px auto;
+}
+
+.ingredients li {
+    color: #FBF9F8;
+    list-style: none;
+    padding: 8px 0;
+}

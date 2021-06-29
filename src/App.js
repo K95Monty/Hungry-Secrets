@@ -36,6 +36,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="scroll">Scroll</div>
       <Header />
       <form className="searchForm" onSubmit={getSearch}>
         <input className="searchBar" type="text" value={search} onChange={updateSearch}/>

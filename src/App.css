@@ -26,6 +26,7 @@ form {
 .searchBar {
   padding: 10px;
   margin: 0 5px;
+  width: 200px;
 }
 
 .searchForm button {
@@ -37,11 +38,20 @@ form {
   text-align: center;
   font-weight: bold;
   letter-spacing: 1.5px;
-  width: 150px;
+  width: 120px;
   font-size: 1.2em;
 }
 
 .recipes {
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 50px;
+}
+
+.scroll {
+  position: fixed;
+  padding: 10px;
+  margin-left: 30px;
+  background-color: #88c9fa;
+  border-radius: 4px;
 }
