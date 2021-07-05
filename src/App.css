@@ -16,6 +16,7 @@ body {
     background: linear-gradient(to bottom, #88C9FA 0%, #F353D5 30%, #2B18A3 100%);
   line-height: 1.5;
   width: 100%;
+  font-family: 'Nobile', sans-serif;
 }
 
 form {
@@ -25,7 +26,6 @@ form {
 
 .searchBar {
   padding: 10px;
-  margin: 0 5px;
   width: 200px;
 }
 
@@ -46,12 +46,4 @@ form {
   margin: 0 auto;
   text-align: center;
   padding-bottom: 50px;
-}
-
-.scroll {
-  position: fixed;
-  padding: 10px;
-  margin-left: 30px;
-  background-color: #88c9fa;
-  border-radius: 4px;
 }

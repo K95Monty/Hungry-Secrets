@@ -1,0 +1,10 @@
+.scroll {
+    position: fixed;
+    padding: 10px;
+    margin-left: 30px;
+    color: #88c9fa;
+    border-radius: 4px;
+    font-size: 4em;
+    text-shadow: 5px 5px 5px rgb(43, 24, 163),
+                 5px 5px 5px rgb(147, 153, 158);
+  }

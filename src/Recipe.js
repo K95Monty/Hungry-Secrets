@@ -23,17 +23,19 @@ function Recipe(props) {
             <button id='hide' onClick={hideRecipe} className={ click ? 'clicked-active' : 'clicked' }>Hide Recipe</button>
 
             <div className={ click ? 'clicked-active' : 'clicked' } >
-                <div>
+                <div className="recipe-content">
+                    <h3 className="type">{props.meal} {props.dish}</h3>
                     <ul className="ingredients">
+                        Ingredients:
                         {props.ingredients.map(ingredient => (
                             <li className="ingredient">{ingredient.text}</li> /*addkey prop */
                         ))}
                     </ul>
+                
+                    <p className="calories">Calories: {props.calories}</p>
+                    <p className="caution">Caution, may contain: {props.caution}</p>
+                    
                 </div>
-                <p className="calories">{props.calories}</p>
-                <p>{props.caution}</p>
-                <p>{props.meal}</p>
-                <p>{props.dish}</p>
             </div> 
         </div>
     )

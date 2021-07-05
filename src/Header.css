@@ -1,6 +1,25 @@
-h1 {
-    font-size: 3em;
-    text-align: center;
-    padding: 30px 0;
+
+header {
     color: #f353d5;
+    font-size: 3em;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-shadow: 5px 5px 5px rgb(43, 24, 163),
+                 5px 5px 5px rgb(147, 153, 158);
+}
+
+h1 {
+    
+    font-family: 'Corben', cursive;
+    letter-spacing: 2px;
+    
+}
+
+.header-icon {
+    align-self: center;
+    font-size: 2em;
+    padding-left: 8px;
+    color: rgb(43, 24, 163);
 }

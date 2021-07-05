@@ -16,8 +16,12 @@
     color: #FBF9F8;
     font-weight: bold;
     font-size: 1.8em;
+    font-family: 'Corben', cursive;
+    text-transform: capitalize;
     letter-spacing: 2px;
     text-align: center;
+    text-shadow: 5px 5px 5px rgb(43, 24, 163),
+                 5px 5px 5px rgb(147, 153, 158);
     height: 80px;
 }
 
@@ -30,6 +34,9 @@
     background-color: #f353d5;
     color: #FBF9F8;
     border-radius: 7px;
+    border: 3px solid #2b18a3;
+    box-shadow: 5px 5px 5px rgba(43, 24, 163, 0.5),
+                8px 8px 10px rgba(136, 201, 250, 0.2);
     margin: 0 auto;
     margin-top: 30px;
     padding: 10px 15px;
@@ -40,16 +47,36 @@
     font-size: 1.2em;
 }
 
+.recipe-content {
+    background-color: rgba(136, 201, 250, 0.7);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.type, .calories, .caution {
+    color: #2b18a3;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
 .recipe ul {
     background-color: rgba(43, 24, 163, 0.7);
+    color: #FBF9F8;
+    font-weight: bold;
+    font-size: 1.2em;
     border-radius: 6px;
     padding: 20px;
-    width: 80%;
+    width: 50%;
     margin: 20px auto;
+    letter-spacing: 1px;
 }
 
 .ingredients li {
     color: #FBF9F8;
+    font-weight: normal;
     list-style: none;
     padding: 8px 0;
+    text-align: start;
 }

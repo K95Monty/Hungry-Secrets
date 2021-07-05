@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import Scroll from './Scroll';
 import Header from './Header';
 import Recipe from './Recipe';
 import Footer from './Footer';
@@ -36,7 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="scroll">Scroll</div>
+      <Scroll />
       <Header />
       <form className="searchForm" onSubmit={getSearch}>
         <input className="searchBar" type="text" value={search} onChange={updateSearch}/>
