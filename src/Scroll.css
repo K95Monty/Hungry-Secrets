@@ -1,10 +1,34 @@
-.scroll {
-    position: fixed;
+.scroll-icon {
     padding: 10px;
-    margin-left: 30px;
+    margin: 100px 50px;
+    z-index: 99;
+    float: right;
     color: #88c9fa;
-    border-radius: 4px;
+    position: fixed;
+    border-radius: 50%;
     font-size: 4em;
     text-shadow: 5px 5px 5px rgb(43, 24, 163),
                  5px 5px 5px rgb(147, 153, 158);
-  }
+    box-shadow: 5px 5px 8px rgba(43, 24, 163, 0.5);
+}
+
+.scroll-hide {
+    display: none;
+    transition-timing-function: ease;
+}
+
+.scroll-active {
+    display: block;
+    transition-timing-function: ease;
+}
+
+@media (max-width: 1000px) {
+    .scroll-icon {
+        font-size: 3em;
+    }
+}
+@media (max-width: 600px) {
+    .scroll-icon {
+        font-size: 2.5em;
+    }
+}
