@@ -51,11 +51,27 @@
     font-size: 1.2em;
 }
 
+.recipe button:hover {
+    background-color: rgba(43, 24, 163,0.7);
+    transition: 0.3s ease;
+}
+/*
+#FBF9F8 white
+#e9d8e1 grey
+#f353d5 hot pink
+#88c9fa baby blue
+#2b18a3 blue
+*/
+.recipe button:active {
+    background-color: #2b18a3;
+}
+
 .recipe-content {
     background-color: rgba(136, 201, 250, 0.7);
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
+    width: 100%;
 }
 
 .type, .calories, .caution {
