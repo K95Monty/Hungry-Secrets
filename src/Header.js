@@ -4,7 +4,7 @@ import './Header.css';
 
 function Header() {
     return(
-        <header>
+        <header className="header">
             <h1>Hungry Secrets</h1>
             <GiHotMeal className="header-icon"/>
         </header>
