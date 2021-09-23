@@ -7,7 +7,7 @@ function Footer() {
         <div className="footer">
             <div className="footer-body">
                 <div className='about'>
-                    <p>Hungry Secrets is app built using React technologies and the Edamam API; you can view recipes as inspiration for your next meal or simply look at good looking food-porn!</p>
+                    <p>Hungry Secrets is an app built using React technologies and the Edamam API; you can view recipes as inspiration for your next meal!</p>
                 </div>
                 <div className='social'>
                     <ul>

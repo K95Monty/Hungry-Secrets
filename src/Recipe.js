@@ -32,7 +32,6 @@ function Recipe(props) {
                         ))}
                     </ul>
                 
-                    <p className="calories">Calories: {props.calories}</p>
                     <p className="caution">Caution, may contain: {props.caution}</p>
                     
                 </div>
